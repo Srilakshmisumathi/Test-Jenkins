@@ -17,7 +17,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'chmod +x test.sh && ./test.sh'  // Running test script
+                sh 'chmod +x setup.sh && ./ setup.sh'  // Running test script
             }
         }
 
