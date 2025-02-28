@@ -11,7 +11,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'chmod +x tesetup.sh && ./tesetup.sh'  // Modify as needed
+                sh 'chmod +x setup.sh && ./ setup.sh'  // Modify as needed
             }
         }
 
