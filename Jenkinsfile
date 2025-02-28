@@ -11,13 +11,13 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'chmod +x setup.sh && ./ setup.sh'  // Modify as needed
+                sh 'chmod +x setup.sh && ./setup.sh'  // Modify as needed
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'chmod +x setup.sh && ./ setup.sh'  // Running test script
+                sh 'chmod +x setup.sh && ./setup.sh'  // Running test script
             }
         }
 
